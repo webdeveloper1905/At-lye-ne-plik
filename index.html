@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atölye İğne & İplik | Kişiye Özel Dikim</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+	<header>
+        <div class="logo">Atölye <span>İğne & İplik</span></div>
+        <nav class="nav-links">
+            <a href="#hikayemiz">Ustalık Hikayemiz</a>
+            <a href="#koleksiyon">Koleksiyon</a>
+            <a href="#randevu">Randevu Al</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Üzerinize Tam Oturan Hikayeler Dikiyoruz</h1>
+            <p>Kişiye özel ölçü, premium kumaşlar ve zamansız tasarımlar.</p>
+            <a href="#randevu" class="btn-gold">Ölçü İçin Randevu Al</a>
+        </div>
+    </section>
+
+    <section id="koleksiyon" class="gallery-section reveal">
+        <h2>Öne Çıkan Tasarımlarımız</h2>
+        <p class="sub-title">Atölyemizden çıkan benzersiz elbiseler</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="img1.jpg" alt="Abiye">
+                <div class="overlay"><h3>İpek Gece Elbisesi</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="img2.jpg" alt="Takım">
+                <div class="overlay"><h3>Özel Kesim Takım Elbise</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="img3.jpg"alt="Keten">
+                <div class="overlay"><h3>Keten Yazlık Elbise</h3></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="randevu" class="appointment-section reveal">
+        <h2>Atölyemizi Ziyaret Edin</h2>
+        <form id="appointment-form">
+            <input type="text" placeholder="Adınız Soyadınız" required>
+            <input type="tel" placeholder="Telefon Numaranız" required>
+            <input type="date" required>
+            <select required>
+                <option value="">Hizmet Türü Seçin</option>
+                <option value="abiye">Abiye / Gelinlik Dikimi</option>
+                <option value="takim">Takım Elbise Dikimi</option>
+                <option value="tadilat">Özel Ölçü Tadilat</option>
+            </select>
+            <button type="submit" class="btn-submit">Randevu Talebi Gönder</button>
+        </form>
+    </section>
+
+<script src="js.js"></script>
+</body>
+</html>
